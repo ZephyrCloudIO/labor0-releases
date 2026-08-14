@@ -6,4 +6,6 @@ Labor0 CLI archives contain `l0`, `labor0-runner`, the runner-managed skill bund
 
 Published releases are immutable. A failed release is replaced by a new version; assets and tags are never overwritten or reused.
 
+For the current installation path, see [Install the Labor0 CLI](https://docs.labor0.com/cli/install). For broader setup, recovery, and product guidance, see [Labor0 CLI documentation](https://docs.labor0.com/cli).
+
 For safe support and issue-reporting guidance, see [SUPPORT.md](SUPPORT.md).
