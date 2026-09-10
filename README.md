@@ -8,4 +8,14 @@ Published releases are immutable. A failed release is replaced by a new version;
 
 For the current installation path, see [Install the Labor0 CLI](https://docs.labor0.com/cli/install). For broader setup, recovery, and product guidance, see [Labor0 CLI documentation](https://docs.labor0.com/cli) and the [customer command reference](https://docs.labor0.com/cli/commands).
 
+<!-- breakless-section:start -->
+
+## breakless
+
+`breakless` is Labor0's proprietary Node.js 24 CLI for local, validated breaking-change migrations. Install the [public npm package](https://www.npmjs.com/package/breakless) with `pnpm add --global --allow-build=@ast-grep/cli breakless`, then run `breakless --help`.
+
+Each `breakless-vX.Y.Z` release mirrors the exact npm tarball with its third-party notices, SHA-256 checksums, and deterministic build provenance. Published versions and release assets are immutable; use a later version for corrections.
+
+<!-- breakless-section:end -->
+
 For safe support and issue-reporting guidance, see [SUPPORT.md](SUPPORT.md).
